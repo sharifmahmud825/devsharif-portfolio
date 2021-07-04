@@ -1,6 +1,7 @@
 *{
     font-family: poppins;
     margin: 0 auto;
+    box-sizing: border-box;
 
 }
 header{
@@ -50,14 +51,82 @@ ul li a {
 }
 .button{
     text-decoration: none;
-    padding: 13px 30px 5px;
+    padding: 13px 30px 3px;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
     background-color: #A001FF;
     color: #fff;
     margin: 15px ;
+    border-radius: 5px;
 }
 
 /* =========/header section========= */
+
+/* =========hero section========= */
+.flexible-container{
+    display: flex;
+    justify-content: space-between;
+}
+.halfwidth{
+    width: 50%;
+}
+.text{
+    margin-top: 200px;
+
+}
+.text-design{
+    color: #CF00FF;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: justify;
+}
+h1{
+    font-size: 50px;
+    
+}
+.line{
+    border-bottom: 3px solid black;
+    width: 80px;
+    margin: 15px 0 25px;
+    
+    
+}
+h2{
+    font-size: 30px;
+}
+.image img {
+    width: 100%;
+}
+.cta{
+    text-decoration: none;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #A001FF;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: none;
+} 
+.cta {
+    cursor: pointer;
+}   
+
+/* =========/hero section========= */
+/* =========about me section========= */
+.aboutMe{
+    margin-top: 110px;
+}
+.imgTwo{
+    width: 100%;
+}
+.txtTwo{
+    padding: 70px 20px 70px 170px;
+}
+/* =========/about me section========= */
 
